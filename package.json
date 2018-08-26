@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "seed": "sequelize db:seed:all",
+    "migrate": "sequelize db:migrate",
+    "migrate:undo": "sequelize db:migrate:undo",
+    "create:db": "sequelize db:create"
   },
   "keywords": [],
   "author": "Daniel Ughelli",
