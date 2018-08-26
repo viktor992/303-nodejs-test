@@ -1,0 +1,25 @@
+{
+  "name": "303-nodejs-test",
+  "version": "1.0.0",
+  "description": "303 Software NodeJS test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Daniel Ughelli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.3"
+  }
+}
