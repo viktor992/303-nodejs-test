@@ -1,0 +1,15 @@
+version: "2"
+services:
+  practice_docker: 
+    build: .
+    ports: 
+      - 3000:3000
+    command: bash -c 'npm run create:db; npm run start;'
+    depends_on:
+      - db
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=303_test_development
