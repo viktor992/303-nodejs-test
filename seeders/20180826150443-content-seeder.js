@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  up: queryInterface => queryInterface.bulkInsert('Tasks', [
+  up: queryInterface => queryInterface.bulkInsert('Contents', [
     {
       title: 'Lorem ipsum',
       author: 'Claudia Russell',
@@ -14,5 +14,5 @@ module.exports = {
     },
   ], {}),
 
-  down: queryInterface => queryInterface.bulkDelete('Task', null, {}),
+  down: queryInterface => queryInterface.bulkDelete('Contents', null, {}),
 };
