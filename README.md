@@ -1,6 +1,6 @@
 # 303 Software NodeJS test
 
-Simple NodeJS application for author/content management.
+Simple NodeJS application for content management.
 
 ## Development
 
@@ -32,6 +32,7 @@ $ npm run start
 * NodeJS
 * Express
 * Sequelize
+* PostgreSQL
 
 ## Code Style
 
